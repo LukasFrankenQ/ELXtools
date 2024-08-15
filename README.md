@@ -44,7 +44,7 @@
 
 ![Half hourly PN and BOA](imgs/pearson_correlation_main.png)
 
-* All code used can be found in `notebooks/get_bmudata.ipynb`.
+* All code used can be found in `notebooks/battery_analysis.ipynb`.
 
 **Limitations** 
 * While the choice of batteries is truly random, an analysis based on more results would be more reliable.
