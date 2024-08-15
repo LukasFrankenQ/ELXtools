@@ -14,7 +14,7 @@
 
 <br>
 
-* **For i. and ii., the magnitude of the correlation indicates that approximately every 4th to 5th unit of power provided in balancing meets a constraint they caused.**
+* **For i. and ii., the magnitude of the correlation indicates that approximately every 4th to 5th unit of power provided by batteries in balancing meets an over/undersupply caused by the same batteries.**
 
 <br>
 
