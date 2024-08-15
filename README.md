@@ -15,7 +15,7 @@
     * We use Elexon's data on Physical Notification (PN) and Bid-Offer Acceptance (BOA)  
     * of four random batteries South of B4 and of four random batteries North of B4, 
     * compile their Elexon data into a minutely time series of wholesale and balancing activity,
-    * and determine Pearson correlations with respective _p_-values for the subset of minutes where any balancing activity is observed.
+    * and determine Pearson correlations with respective _p_-values for the subset of minutes where the respective balancing activity is observed.
 
 **Main Figure - Correlation of Balancing and Wholesale Volumes During Battery Bidding and Offer Activity South and North of the B4 Boundary**
 
