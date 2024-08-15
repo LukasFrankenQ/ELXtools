@@ -41,8 +41,17 @@
 
 ![Half hourly agg PN and BOA](imgs/aggregate_PN_BOA.png)
 
-* Enhancing the scope of the data to span from March 25th 2024 and July 17th 2024, we get
+* Enhancing the scope of the data to span from March 25th 2024 to July 17th 2024, we get
 
 ![Half hourly PN and BOA](imgs/pearson_correlation_main.png)
 
 * All code used can be found in `notebooks/get_bmudata.ipynb`.
+
+**Limitations** 
+* While the choice of batteries is truly random, an analysis based on more results would be more reliable.
+* An alternative framing of the results could investigate if the battery's behaviour on the wholesale market is different depending on its activity on the balancing market. This could be tested using a Kolmogorov-Smirnov test, and is shown here for a small dataset of a few days, but is visually less intuitive.
+
+![Half hourly PN and BOA](imgs/PN_distribution.png)
+
+* Finally, Figure 2 shows that much of the batteries' BM activity is to provide power during very small time frames, often of only a few minutes. Moreover, these actions are not soFlagged which would indicate the relevance of network constraints. Also, Figure 1 and 4 suggests that it could be plausible that only a few, high-power balancing actions are driving the majority of the observed effect.
+    * Further analysis could investigate this deeper, and disaggregate the analysis to different types of balancing actions.
