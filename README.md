@@ -11,6 +11,13 @@
     2. South of the B4 boundary, we statistically prove that for a random subset of batteries:
         - Between March 25 and July 17, whenever _any_ of the batteries have accepted offers, the summed import of the same batteries is positively correlated with their summed accepted offer volumes. 
     3. The opposite correlation, bid vs export volumes South of B4 and offer vs import volumes North of B4, is significantly less pronounced.
+
+<br>
+
+* **For i. and ii., the magnitude of the correlation indicates that approximately every 4th to 5th unit of power provided in balancing meets a constraint they caused.**
+
+<br>
+
 * **Methods**: To show this, 
     * We use Elexon's data on Physical Notification (PN) and Bid-Offer Acceptance (BOA)  
     * of four random batteries South of B4 and of four random batteries North of B4, 
