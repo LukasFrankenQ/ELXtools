@@ -32,7 +32,7 @@
 
 * The line shows a linear fit of the data, with the respective Pearson R², and _p_-value shown in the title of the plot.
 
-* The main results are top-left and bottom-right, where the expected results are seen.
+* The main results are top-left and bottom-right, showing the expected dynamic.
     * Top-left: Bid volumes in the North are larger during high exports.
     * Bottom-right: Offer volumes in the South are larger during high imports.
     * Top-right and bottom-left: the same dynamics for bids in the South and offers in the South are noticeably less pronounced.
@@ -54,7 +54,7 @@
 * All code used can be found in `notebooks/battery_analysis.ipynb`.
 
 **Limitations** 
-* While the choice of batteries is truly random, an analysis based on more results would be more reliable.
-* An alternative framing of the results could investigate if the battery's behaviour on the wholesale market is different depending on its activity on the balancing market. This could be tested using a Kolmogorov-Smirnov test, and is shown here for a small dataset of a few days but is visually less intuitive.
+* While the choice of batteries is random, an analysis based on more assets would be more reliable.
+* An alternative framing of the results could investigate if the battery's behaviour on the wholesale market is different depending on its activity on the balancing market. This could be tested using a Kolmogorov-Smirnov test, and is shown here for a small dataset of a few days. Here, it was found to be insufficiently intuitive.
 
 ![Half hourly PN and BOA](imgs/PN_distribution.png)
